@@ -1,0 +1,55 @@
+.hero h1 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  @media (min-width: 768px) {
+    font-size: 4rem;
+  }
+}
+
+.hero h2 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  @media (min-width: 768px){
+    font-size: 2.25rem;
+  }
+}
+
+.slogan h2 {
+  @media (min-width: 768px) {
+      margin-bottom: 1.5rem;
+  }
+}
+
+.co-branding .row>div:first-child {
+  @media (min-width: 992px) {
+      margin-right: -12px;
+  }
+}
+
+.co-branding .row>div:last-child {
+  @media (min-width: 992px) {
+      margin-left: -12px;
+  }
+}
+
+.card {
+  border-color: #DEE2E6;
+}
+
+.card-body p:last-child {
+  color: #707070;
+}
+
+
+.contact-form input {
+  border-radius: 0px;
+  border-color: black;
+}
+
+.contact-form textarea {
+  border-radius: 0px;
+  border-color: black;
+}
+

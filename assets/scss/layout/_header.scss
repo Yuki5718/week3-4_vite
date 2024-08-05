@@ -1,0 +1,31 @@
+.header {
+  @media (min-width: 576px) {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  ul {
+    margin: 0 -12px;
+    flex-wrap:wrap;
+    @media (min-width: 576px) {
+      justify-content: center;
+      flex-wrap:nowrap;
+      gap: 1.5rem;
+    }
+    @media (min-width: 768px) {
+      gap: 4rem;
+    }
+  }
+
+  li {
+    padding: 12px 0;
+    width: 50%;
+    text-align: center;
+    border: 1px white solid;
+    @media (min-width: 576px) {
+      width:auto;
+      border:none ;
+    }
+  }
+}

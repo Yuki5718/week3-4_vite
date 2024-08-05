@@ -1,0 +1,31 @@
+img {
+    max-width: 100%;
+    height : auto;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.color-main {
+    color: $color-main;
+}
+
+.color-minor {
+    color: $color-minor;
+}
+
+.color-tertiary {
+    color: $color-tertiary;
+}
+
+.bg-main {
+    background-color: $color-main;
+}
+
+.bg-minor {
+    background-color: $color-minor;
+}
+

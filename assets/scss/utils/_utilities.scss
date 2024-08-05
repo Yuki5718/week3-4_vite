@@ -1,0 +1,95 @@
+.me-3rem {
+    margin-right: 3rem;
+}
+
+.ms-2rem {
+    margin-left: 2rem;
+}
+.me-2rem {
+    margin-right: 2rem;
+}
+
+.ms-1_5rem {
+    margin-left: 1.5rem;
+}
+.me-1_5rem {
+    margin-right: 1.5rem;
+}
+
+.ms-1rem {
+    margin-left: 1rem;
+}
+.me-1rem {
+    margin-right: 1rem;
+}
+.fw-medium {
+    font-weight: 500;
+}
+.section-padding {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    @media (min-width: 768px){
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+.card-gy {
+    --bs-gutter-y: 1.5rem;
+    @media (min-width: 768px) {
+        --bs-gutter-y: 2.5rem;
+    }
+    @media (min-width: 1200px) {
+        --bs-gutter-y: 5rem;
+    }
+}
+
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    @media (min-width: 768px) {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.product-title {
+    font-size: 1.5rem;
+    @media (min-width: 768px) {
+        font-size: 2.625rem;
+    }
+}
+.product-subtitle {
+    font-size: 1.5rem;
+    @media (min-width: 768px) {
+        font-size: 2rem;
+    }
+}
+
+.page-padding {
+    padding-bottom: 4rem;
+    padding-top: 1.5rem;
+    @media (min-width: 768px) {
+        padding-bottom: 5rem;
+        padding-top: 0;
+    }
+}
+
+.FAQ-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 1.5;
+    @media (min-width: 768px) {
+        font-size: 3rem;
+    }
+}
+
+.FAQ-mb {
+    margin-bottom: 1.5rem;
+    @media (min-width: 768px) {
+        margin-bottom: 2rem;
+    }
+}

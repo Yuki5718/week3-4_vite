@@ -1,0 +1,56 @@
+footer .container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  @media (min-width:768px) {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.ic-social {
+  width: 1.5rem;
+  height: auto;
+  @media (min-width:768px){
+    width: 3rem;
+  }
+}
+
+.footer-nav {
+  display: none;
+  @media (min-width:768px) {
+    display: block;
+    padding-top: 0.75rem;
+    padding-bottom: 2.25rem;
+  }
+}
+
+.contact {
+  font-size: 1rem;
+  @media (min-width:768px) {
+    font-size: 2.25rem;
+  }
+  img {
+    width: 1rem;
+    height: auto;
+    @media (min-width:768px){
+      width: 2.25rem;
+    }
+  }
+}
+
+.footer-hr {
+  color: white;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  @media (min-width:768px) {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+.terms a {
+  font-size: 1rem;
+  @media (min-width:768px) {
+    font-size: 0.875rem;
+  }
+}
